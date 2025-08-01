@@ -12,7 +12,7 @@ public class LevelManager : MonoBehaviour
     private int Health;
     private int ArrIndex = 0;
     private int TupBeatLength;
-    private enum PlayerInput;
+    private PosInputs PlayerInput;
 
     void Start() 
     {
@@ -35,7 +35,7 @@ public class LevelManager : MonoBehaviour
         {
             Health -= 3;
         }
-        else if(Inputs[ArrIndex].Item1 != empty)
+        else if(Inputs[ArrIndex].Item1 != PosInputs.empty)
         {
             Health++;
         }
@@ -46,23 +46,23 @@ public class LevelManager : MonoBehaviour
     {
         if (Input.GetKeyDown("a"))
         {
-            return a;
+            return PosInputs.a;
         }
         else if (Input.GetKeyDown("d"))
         {
-            return d;
+            return PosInputs.d;
         }
-        else if (IInput.GetMouseButtonDown(0))
+        else if (Input.GetMouseButtonDown(0))
         {
-            return Lc;
+            return PosInputs.Lc;
         }
         else if (Input.GetMouseButtonDown(1))
         {
-            return Rc;
+            return PosInputs.Rc;
         }
         else 
         {
-            return empty;
+            return PosInputs.empty;
         }
     } 
 }
