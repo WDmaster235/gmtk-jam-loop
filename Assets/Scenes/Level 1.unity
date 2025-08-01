@@ -343,10 +343,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b56baaf26fd29a4dbe3553e29991134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bpm: 0
+  bpm: 140
   audioSource: {fileID: 1319779763}
-  steps: 0
-  lm: {fileID: 0}
+  steps: 1
+  levelManager: {fileID: 1693239973}
   IntervalLength: 0
 --- !u!82 &1319779763
 AudioSource:
@@ -359,7 +359,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 7d342a342103d9f4986a60afd13f5509, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4a9c450d46d8a9944878e26018243c46, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -454,7 +454,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1693239972}
-  - component: {fileID: 1693239974}
+  - component: {fileID: 1693239973}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -477,7 +477,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1693239974
+--- !u!114 &1693239973
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,10 +486,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1693239971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63a3726743aca4047bd90335d5985766, type: 3}
+  m_Script: {fileID: 11500000, guid: b8cb52be4e4af064aa5f9bb358918ebb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ArrIndex: 0
+  HealingAmount: 1
+  DamageAmount: 3
+  Health: 30
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

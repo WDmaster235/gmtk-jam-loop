@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
         {
             PlayerInput = 1;
         }
-        else if (IInput.GetMouseButtonDown(0))
+        else if (Input.GetMouseButtonDown(0))
         {
             PlayerInput = 2;
         }

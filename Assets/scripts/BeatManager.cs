@@ -8,7 +8,7 @@ public class BeatManager : MonoBehaviour
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private float steps;
 
-    public LevelManager lm;
+    public LevelManager levelManager;
     public float IntervalLength;
     private int LastInterval;
     private float sampledTime;
@@ -29,7 +29,7 @@ public class BeatManager : MonoBehaviour
         if (Mathf.FloorToInt(interval) != LastInterval)
         {
             LastInterval = Mathf.FloorToInt(interval);
-            lm.BeatLength++;
+            levelManager.BeatLength++;
         }
     }
 }

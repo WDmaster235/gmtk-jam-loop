@@ -1,48 +1,78 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public enum PosInputs 
+    public enum PosInputs
     {
-        a, d, Lc, Rc, empty,
+        a,
+        d,
+        j,
+        empty
     }
 
-    public int BeatLength = 0;
+    [SerializeField] private int HealingAmount;
+    [SerializeField] private int DamageAmount;
+    [SerializeField] private int Health;
 
-    private int Health;
+    [HideInInspector] public int BeatLength { get; set; }
     private int ArrIndex = 0;
-    private int TupBeatLength;
     private PosInputs PlayerInput;
+    private int currTupBeatLength;
+    private bool hasCurrKeyBeenPressed;
 
-    void Start() 
+    [SerializeField] List<Tuple<PosInputs, int>> currLevelInputs = new List<Tuple<PosInputs, int>>()
     {
-        Health = 30;
+        new Tuple<PosInputs, int>(PosInputs.empty, 8),
+        new Tuple<PosInputs, int>(PosInputs.a, 10),
+        new Tuple<PosInputs, int>(PosInputs.d, 500)
+
+
+
+
+
+    };
+
+
+    void Start()
+    {
+        hasCurrKeyBeenPressed = false;
     }
 
-    void Update() 
+    void Update()
     {
+        Debug.Log(Health);
+        PlayerInput = PlayerInputs();
+        currTupBeatLength = currLevelInputs[ArrIndex].Item2;
 
-        TupBeatLength = Inputs[ArrIndex].Item2;
-        if (TupBeatLength - BeatLength == 0) 
+        if (PlayerInput == currLevelInputs[ArrIndex].Item1 && !hasCurrKeyBeenPressed && currLevelInputs[ArrIndex].Item1 != PosInputs.empty)
+        {
+            Health = Math.Min(30, Health + HealingAmount);
+            hasCurrKeyBeenPressed = true;
+        }
+
+        else if (PlayerInput != currLevelInputs[ArrIndex].Item1 && PlayerInput != PosInputs.empty)
+        {
+            Health -= DamageAmount;
+        }
+
+        if (currTupBeatLength - BeatLength <= 0)
         {
             BeatLength = 0;
+            
+            if (hasCurrKeyBeenPressed == false && currLevelInputs[ArrIndex].Item1 != PosInputs.empty)
+            {
+                Health -= DamageAmount;
+            }
+
             ArrIndex++;
+            Debug.Log("Next Bit!!");
+            hasCurrKeyBeenPressed = false;
         }
-
-        PlayerInput = PlayerInputs();
-
-        if (Inputs[ArrIndex].Item1 != PlayerInput) 
-        {
-            Health -= 3;
-        }
-        else if(Inputs[ArrIndex].Item1 != PosInputs.empty)
-        {
-            Health++;
-        }
-
     }
 
-    private PosInputs PlayerInputs() 
+    private PosInputs PlayerInputs()
     {
         if (Input.GetKeyDown("a"))
         {
@@ -52,17 +82,13 @@ public class LevelManager : MonoBehaviour
         {
             return PosInputs.d;
         }
-        else if (Input.GetMouseButtonDown(0))
+        else if (Input.GetKeyDown("j"))
         {
-            return PosInputs.Lc;
+            return PosInputs.j;
         }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            return PosInputs.Rc;
-        }
-        else 
+        else
         {
             return PosInputs.empty;
         }
-    } 
+    }
 }
