@@ -24,14 +24,71 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] List<Tuple<PosInputs, int>> currLevelInputs = new List<Tuple<PosInputs, int>>()
     {
-        new Tuple<PosInputs, int>(PosInputs.empty, 8),
-        new Tuple<PosInputs, int>(PosInputs.a, 10),
-        new Tuple<PosInputs, int>(PosInputs.d, 500)
+        new Tuple<PosInputs, int>(PosInputs.empty, 14),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
 
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
     };
 
 
@@ -42,7 +99,7 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(Health);
+        //Debug.Log(Health);
         PlayerInput = PlayerInputs();
         currTupBeatLength = currLevelInputs[ArrIndex].Item2;
 
@@ -68,6 +125,7 @@ public class LevelManager : MonoBehaviour
 
             ArrIndex++;
             Debug.Log("Next Bit!!");
+            Debug.Log(currLevelInputs[ArrIndex].Item1);
             hasCurrKeyBeenPressed = false;
         }
     }
