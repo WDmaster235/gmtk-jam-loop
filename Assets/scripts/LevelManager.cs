@@ -6,9 +6,9 @@ public class LevelManager : MonoBehaviour
 {
     public enum PosInputs
     {
-        a,
-        d,
+        f,
         j,
+        space,
         empty
     }
 
@@ -24,71 +24,137 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] List<Tuple<PosInputs, int>> currLevelInputs = new List<Tuple<PosInputs, int>>()
     {
-        new Tuple<PosInputs, int>(PosInputs.empty, 14),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 16),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 4),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 4),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 4),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 4),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
-        new Tuple<PosInputs, int>(PosInputs.empty, 4),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
 
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 4),
 
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.a, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 2),
-        new Tuple<PosInputs, int>(PosInputs.d, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
         new Tuple<PosInputs, int>(PosInputs.empty, 4),
+
+        //-----------------------------------------//
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 6),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+        new Tuple<PosInputs, int>(PosInputs.empty, 4),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.f, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+        new Tuple<PosInputs, int>(PosInputs.j, 2),
+        new Tuple<PosInputs, int>(PosInputs.empty, 2),
+
+
     };
 
 
@@ -99,7 +165,6 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
-        //Debug.Log(Health);
         PlayerInput = PlayerInputs();
         currTupBeatLength = currLevelInputs[ArrIndex].Item2;
 
@@ -112,6 +177,7 @@ public class LevelManager : MonoBehaviour
         else if (PlayerInput != currLevelInputs[ArrIndex].Item1 && PlayerInput != PosInputs.empty)
         {
             Health -= DamageAmount;
+            Debug.Log(Health);
         }
 
         if (currTupBeatLength - BeatLength <= 0)
@@ -132,17 +198,17 @@ public class LevelManager : MonoBehaviour
 
     private PosInputs PlayerInputs()
     {
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("f"))
         {
-            return PosInputs.a;
-        }
-        else if (Input.GetKeyDown("d"))
-        {
-            return PosInputs.d;
+            return PosInputs.f;
         }
         else if (Input.GetKeyDown("j"))
         {
             return PosInputs.j;
+        }
+        else if (Input.GetKeyDown("space"))
+        {
+            return PosInputs.space;
         }
         else
         {
