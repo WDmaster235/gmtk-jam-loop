@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private int HealingAmount;
     [SerializeField] private int DamageAmount;
-    [SerializeField] private int Health;
+    [SerializeField] public int Health { get; private set; }
 
     [HideInInspector] public int BeatLength { get; set; }
     private int ArrIndex = 0;
