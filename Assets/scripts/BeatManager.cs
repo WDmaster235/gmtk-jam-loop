@@ -23,7 +23,7 @@ public class BeatManager : MonoBehaviour
         sampledTime = (audioSource.timeSamples / (audioSource.clip.frequency * IntervalLength));
         CheckForNewInterval(sampledTime);
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("h"))
             audioSource.Play();
     }
 
