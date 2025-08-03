@@ -79,12 +79,12 @@ public class CircleSpawner : MonoBehaviour
 
         "e4,f2,e2,e4,j2,e2," +
         "e4,f2,e2,e4,j2,f2," +
+        "e4,j2,e2,e4,f2,e2," +
+        "e4,j2,e2,e4,f2,j2," +
         "e4,f2,e2,e4,j2,e2," +
         "e4,f2,e2,e4,j2,f2," +
-        "e4,f2,e2,e4,j2,e2," +
-        "e4,f2,e2,e4,j2,f2," +
-        "e4,f2,e2,e4,j2,e2," +
-        "f1,j1,f1,e1,j1,f1,j1,e1,e1,f2,j2,f1,j2," +
+        "e4,j2,e2,e4,f2,e2," +
+        "j1,f1,j1,e1,f1,j1,f1,e1,e1,j2,f2,j1,f2," +
 
         "s2,e2,f2,e2,e4,j2,f2," +
         "e2,e2,j2,e2,e4,f2,j2," +
