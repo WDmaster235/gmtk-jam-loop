@@ -186,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2201073851097638958, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4926033694968262602, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
       propertyPath: m_Size.x
       value: 1.8
@@ -242,6 +246,10 @@ PrefabInstance:
     - target: {fileID: 3200987125983852393, guid: 3e97fd4c1c8dc814ea15c3e8be4815e2, type: 3}
       propertyPath: m_Name
       value: PlayerHulaHoopFront
+      objectReference: {fileID: 0}
+    - target: {fileID: 3200987125983852393, guid: 3e97fd4c1c8dc814ea15c3e8be4815e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8698019674513416290, guid: 3e97fd4c1c8dc814ea15c3e8be4815e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -361,6 +369,10 @@ PrefabInstance:
     - target: {fileID: 3945937486278238333, guid: fa2a8fb87fc627d48978dff64e8ecdcd, type: 3}
       propertyPath: m_Name
       value: PlayerHulaHoopBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 3945937486278238333, guid: fa2a8fb87fc627d48978dff64e8ecdcd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4403922503473907363, guid: fa2a8fb87fc627d48978dff64e8ecdcd, type: 3}
       propertyPath: m_Controller
@@ -532,6 +544,10 @@ PrefabInstance:
     - target: {fileID: 5485155992605215004, guid: e140329835219184f9a3862fb33dab9f, type: 3}
       propertyPath: m_Name
       value: Enemy2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5485155992605215004, guid: e140329835219184f9a3862fb33dab9f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -957,6 +973,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BeatManager
       objectReference: {fileID: 0}
+    - target: {fileID: 6593976331742244169, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1081,6 +1101,9 @@ MonoBehaviour:
   HealingAmount: 1
   DamageAmount: 1
   Health: 30
+  hulaIndicatorF: {fileID: 0}
+  hulaIndicatorJ: {fileID: 0}
+  hulaIndicatorDodge: {fileID: 0}
   playerAnimator: {fileID: 1185962810}
   playerAnimationHandler: {fileID: 1185962808}
   hulaHoopAnimator: {fileID: 1118058510}

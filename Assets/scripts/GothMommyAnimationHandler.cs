@@ -6,6 +6,7 @@ public class GothMommyAnimationHandler : MonoBehaviour
     private Animator animator;
     private float timer = 0f;
     private bool isInBattle = true;
+    private bool isSweaty = false;
 
     void Start()
     {
@@ -22,6 +23,15 @@ public class GothMommyAnimationHandler : MonoBehaviour
             animator.SetTrigger("ToSweat");
             timer = 0f;
             isInBattle = false;
+            isSweaty = true;
+        }
+
+        if (isSweaty && timer >= 60f)
+        {
+            animator.SetTrigger("ToRipp");
+            timer = 0f;
+            isInBattle = false;
+
         }
 
     }
