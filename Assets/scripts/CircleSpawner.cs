@@ -1,5 +1,4 @@
 using UnityEngine;
-using static LevelManager;
 
 public class CircleSpawner : MonoBehaviour
 {
@@ -14,22 +13,22 @@ public class CircleSpawner : MonoBehaviour
     void Start()
     {
         currLevelInputs = LevelData.GetLevel1Data();
-           Instantiate(hulaIndicatorF);
     }
 
     void Update()
     {
-        currTupBeatLength = currLevelInputs[ArrIndex + 1] - '0';
+        if (ArrIndex + 1 < currLevelInputs.Length)
+            currTupBeatLength = currLevelInputs[ArrIndex + 1] - '0';
         if (currTupBeatLength - BeatLength <= 0)
         {
             BeatLength = 0;
             ArrIndex += 3;
             if (currLevelInputs[ArrIndex] == 'f')
-                Instantiate(hulaIndicatorF);
+                Instantiate(hulaIndicatorF, new Vector3(-2.5f, -1.3f, 0), Quaternion.identity);
             else if (currLevelInputs[ArrIndex] == 'j')
-                Instantiate(hulaIndicatorJ);
+                Instantiate(hulaIndicatorJ, new Vector3(-2.5f, -1.3f, 0), Quaternion.identity);
             else if (currLevelInputs[ArrIndex] == 's')
-                Instantiate(hulaIndicatorDodge);
+                Instantiate(hulaIndicatorDodge, new Vector3(-2.5f, -1.3f, 0), Quaternion.identity);
         }
     }
 }

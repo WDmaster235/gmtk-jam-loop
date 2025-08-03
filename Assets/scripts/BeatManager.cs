@@ -37,6 +37,6 @@ public class BeatManager : MonoBehaviour
 
     public void PlayLevel()
     {
-        audioSource.Play(); 
+        audioSource.PlayDelayed(0.9f); 
     }
 }
