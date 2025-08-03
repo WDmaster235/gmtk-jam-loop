@@ -17,8 +17,8 @@ public class GothMommyAnimationHandler : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-
-        if (isInBattle && timer >= 60f)
+        Debug.Log(timer);
+        if (isInBattle && timer >= 30f && !isSweaty)
         {
             animator.SetTrigger("ToSweat");
             timer = 0f;
@@ -26,7 +26,7 @@ public class GothMommyAnimationHandler : MonoBehaviour
             isSweaty = true;
         }
 
-        if (isSweaty && timer >= 60f)
+        if (isSweaty && timer >= 40f)
         {
             animator.SetTrigger("ToRipp");
             timer = 0f;
@@ -35,6 +35,5 @@ public class GothMommyAnimationHandler : MonoBehaviour
         }
 
     }
-
 
 }
