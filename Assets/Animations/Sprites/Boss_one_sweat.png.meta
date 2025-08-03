@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 387f3a3630ffdde4f95830e9d94e1b4e
+guid: 79a90292529e8824ba7f401adff6647c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7386571568265903644
-    second: Boss_1_sprite_0
+      213: 7640706376831133215
+    second: Boss_one_sweat_0
   - first:
-      213: 4502730032860450161
-    second: Boss_1_sprite_1
+      213: 5976094082751733251
+    second: Boss_one_sweat_1
   - first:
-      213: 9123830185131487883
-    second: Boss_1_sprite_2
+      213: 8048452683630357030
+    second: Boss_one_sweat_2
   - first:
-      213: 2335698733157132465
-    second: Boss_1_sprite_3
+      213: -7638198443689321469
+    second: Boss_one_sweat_3
   - first:
-      213: 2519904850799540937
-    second: Boss_1_sprite_4
+      213: 1283992107640839831
+    second: Boss_one_sweat_4
   - first:
-      213: 6302509435835045466
-    second: Boss_1_sprite_5
+      213: 1741701873469463172
+    second: Boss_one_sweat_5
+  - first:
+      213: -6788614017742277388
+    second: Boss_one_sweat_6
+  - first:
+      213: -7774484853845031138
+    second: Boss_one_sweat_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,7 +108,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -115,12 +121,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_1_sprite_0
+      name: Boss_one_sweat_0
       rect:
         serializedVersion: 2
-        x: 12
+        x: 11
         y: 5
-        width: 28
+        width: 29
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -130,14 +136,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1e3d72a4bf528660800000000000000
-      internalID: 7386571568265903644
+      spriteID: f16e410b7fd390a60800000000000000
+      internalID: 7640706376831133215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1_sprite_1
+      name: Boss_one_sweat_1
       rect:
         serializedVersion: 2
         x: 76
@@ -152,19 +158,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17d4120cb19ec7e30800000000000000
-      internalID: 4502730032860450161
+      spriteID: 30e1bb2d7e95fe250800000000000000
+      internalID: 5976094082751733251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1_sprite_2
+      name: Boss_one_sweat_2
       rect:
         serializedVersion: 2
         x: 140
         y: 5
-        width: 28
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -174,19 +180,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b82bfb7963b5e9e70800000000000000
-      internalID: 9123830185131487883
+      spriteID: 62aa35fb219d1bf60800000000000000
+      internalID: 8048452683630357030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1_sprite_3
+      name: Boss_one_sweat_3
       rect:
         serializedVersion: 2
         x: 204
         y: 5
-        width: 28
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -196,19 +202,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b8292c6f911a6020800000000000000
-      internalID: 2335698733157132465
+      spriteID: 30cd4fffbfaaff590800000000000000
+      internalID: -7638198443689321469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1_sprite_4
+      name: Boss_one_sweat_4
       rect:
         serializedVersion: 2
         x: 268
         y: 5
-        width: 28
+        width: 33
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -218,19 +224,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9cab0bb5c1088f220800000000000000
-      internalID: 2519904850799540937
+      spriteID: 79e565ed408a1d110800000000000000
+      internalID: 1283992107640839831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_1_sprite_5
+      name: Boss_one_sweat_5
       rect:
         serializedVersion: 2
         x: 332
         y: 5
-        width: 28
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -240,8 +246,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a56de7490f2077750800000000000000
-      internalID: 6302509435835045466
+      spriteID: 48a97c040a4cb2810800000000000000
+      internalID: 1741701873469463172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_one_sweat_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4fb3bb48ff9c1a0800000000000000
+      internalID: -6788614017742277388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss_one_sweat_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1789e6673b7b1490800000000000000
+      internalID: -7774484853845031138
       vertices: []
       indices: 
       edges: []
@@ -250,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Boss_1_sprite_0: 7386571568265903644
-      Boss_1_sprite_1: 4502730032860450161
-      Boss_1_sprite_2: 9123830185131487883
-      Boss_1_sprite_3: 2335698733157132465
-      Boss_1_sprite_4: 2519904850799540937
-      Boss_1_sprite_5: 6302509435835045466
+      Boss_one_sweat_0: 7640706376831133215
+      Boss_one_sweat_1: 5976094082751733251
+      Boss_one_sweat_2: 8048452683630357030
+      Boss_one_sweat_3: -7638198443689321469
+      Boss_one_sweat_4: 1283992107640839831
+      Boss_one_sweat_5: 1741701873469463172
+      Boss_one_sweat_6: -6788614017742277388
+      Boss_one_sweat_7: -7774484853845031138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

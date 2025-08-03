@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 43f48518b6931aa42902470d3a97b987
+guid: 37117c30f9800884588f339a4a99ad57
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6079891842019609605
-    second: Hoop_sprite_1_0
+      213: -1653430650561652100
+    second: Boss_one__0
   - first:
-      213: 5676313737551252071
-    second: Hoop_sprite_1_1
+      213: 5910799032230805810
+    second: Boss_one__1
   - first:
-      213: 7378753955766319539
-    second: Hoop_sprite_1_2
+      213: -8454358783055136871
+    second: Boss_one__2
   - first:
-      213: 6943539674055838874
-    second: Hoop_sprite_1_3
+      213: -9002729366916524394
+    second: Boss_one__3
   - first:
-      213: -8987205484399875139
-    second: Hoop_sprite_1_4
+      213: 198001218643558045
+    second: Boss_one__4
   - first:
-      213: -4345232129429870129
-    second: Hoop_sprite_1_5
+      213: 7549636665162020899
+    second: Boss_one__5
   - first:
-      213: 6605605404412190972
-    second: Hoop_sprite_1_6
+      213: 8639396148838500015
+    second: Boss_one__6
   - first:
-      213: 6608922296985528151
-    second: Hoop_sprite_1_7
+      213: -4641263093489970999
+    second: Boss_one__7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,7 +108,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoop_sprite_1_0
+      name: Boss_one__0
       rect:
         serializedVersion: 2
         x: 11
-        y: 23
-        width: 27
-        height: 11
+        y: 5
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf330a31592ef9ba0800000000000000
-      internalID: -6079891842019609605
+      spriteID: c7a97846595dd09e0800000000000000
+      internalID: -1653430650561652100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_1
+      name: Boss_one__1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 24
-        width: 27
-        height: 12
+        x: 76
+        y: 5
+        width: 28
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76a8968154156ce40800000000000000
-      internalID: 5676313737551252071
+      spriteID: 23107de2760670250800000000000000
+      internalID: 5910799032230805810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_2
+      name: Boss_one__2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 25
-        width: 27
-        height: 12
+        x: 140
+        y: 5
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b9b572e0a9966660800000000000000
-      internalID: 7378753955766319539
+      spriteID: 9977b4cda751caa80800000000000000
+      internalID: -8454358783055136871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_3
+      name: Boss_one__3
       rect:
         serializedVersion: 2
-        x: 214
-        y: 24
-        width: 27
-        height: 12
+        x: 204
+        y: 5
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9c0eeb8b886c5060800000000000000
-      internalID: 6943539674055838874
+      spriteID: 69696fbd651ef0380800000000000000
+      internalID: -9002729366916524394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_4
+      name: Boss_one__4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 23
-        width: 27
-        height: 11
+        x: 268
+        y: 5
+        width: 33
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbb27ea6a38074380800000000000000
-      internalID: -8987205484399875139
+      spriteID: d9ef75e2f017fb200800000000000000
+      internalID: 198001218643558045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_5
+      name: Boss_one__5
       rect:
         serializedVersion: 2
-        x: 343
-        y: 21
-        width: 26
-        height: 12
+        x: 332
+        y: 5
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc9e7ba7662a2b3c0800000000000000
-      internalID: -4345232129429870129
+      spriteID: 3283f3a1c82b5c860800000000000000
+      internalID: 7549636665162020899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_6
+      name: Boss_one__6
       rect:
         serializedVersion: 2
-        x: 403
-        y: 20
-        width: 27
-        height: 12
+        x: 396
+        y: 5
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf0a3680e13dbab50800000000000000
-      internalID: 6605605404412190972
+      spriteID: fa6856d160d45e770800000000000000
+      internalID: 8639396148838500015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoop_sprite_1_7
+      name: Boss_one__7
       rect:
         serializedVersion: 2
-        x: 463
-        y: 21
-        width: 27
-        height: 12
+        x: 459
+        y: 5
+        width: 29
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7572bf340db97bb50800000000000000
-      internalID: 6608922296985528151
+      spriteID: 9c056639ecbe69fb0800000000000000
+      internalID: -4641263093489970999
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -310,14 +310,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hoop_sprite_1_0: -6079891842019609605
-      Hoop_sprite_1_1: 5676313737551252071
-      Hoop_sprite_1_2: 7378753955766319539
-      Hoop_sprite_1_3: 6943539674055838874
-      Hoop_sprite_1_4: -8987205484399875139
-      Hoop_sprite_1_5: -4345232129429870129
-      Hoop_sprite_1_6: 6605605404412190972
-      Hoop_sprite_1_7: 6608922296985528151
+      Boss_one__0: -1653430650561652100
+      Boss_one__1: 5910799032230805810
+      Boss_one__2: -8454358783055136871
+      Boss_one__3: -9002729366916524394
+      Boss_one__4: 198001218643558045
+      Boss_one__5: 7549636665162020899
+      Boss_one__6: 8639396148838500015
+      Boss_one__7: -4641263093489970999
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

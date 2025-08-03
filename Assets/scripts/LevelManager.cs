@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
 
     [HideInInspector] public int BeatLength { get; set; }
     private int ArrIndex = 0;
-    private PosInputs PlayerInput;
+    public PosInputs PlayerInput { get; private set; }
     private int currTupBeatLength;
     private bool hasCurrKeyBeenPressed;
 
