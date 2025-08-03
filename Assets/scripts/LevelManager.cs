@@ -30,12 +30,128 @@ public class LevelManager : MonoBehaviour
     public PosInputs PlayerInput { get; private set; }
     private int currTupBeatLength;
     private bool hasCurrKeyBeenPressed;
+    [SerializeField] int levelNum;
+    string[] levelData = new string[3];
     string currLevelInputs; //string format: "wantedInput""length", ... exmpale: a2,d3,e4,s1
 
     void Start()
     {
         hasCurrKeyBeenPressed = false;
-        currLevelInputs = LevelData.GetLevel1Data();
+        levelData[0] = "e8,e8," +
+
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "e2,f2,e2,j2,e2,f2,e2,j2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "e2,f2,e2,j2,e2,f2,e4," +
+            "e2,j2,e2,f2,e2,j2,e4," +
+
+            "e4,f2,e2,j2,e2,f2,e2," +
+            "e4,j2,e2,f2,e2,j2,e2," +
+            "e4,f2,e2,j2,e2,f2,e2," +
+            "j2,e2,f2,e2,j2,e2,f2,e2," +
+            "e4,j2,e2,f2,e2,j2,e2," +
+            "f2,e2,j2,e4,f2,e4," +
+            "e4,j2,e2,f2,e2,j2,e2," +
+            "e4,f2,e2,j2,e2,f2,e2," +
+
+            "e4,j2,e2,f2,e2,j2,e2," +
+            "e4,f2,e2,j2,e2,f2,e2," +
+            "e4,j2,e2,e4,f2,e2," +
+            "j2,e2,f2,e2,j2,e2,f2,e2," +
+            "e4,j2,e2,f2,e2,j2,e2," +
+            "f2,e2,j2,e4,f2,e4," +
+            "e4,j2,e2,e4,f2,e2," +
+            "e4,j2,e2,f2,e2,j2,e2," +
+
+            "f2,e2,j2,e2,f2,e2,j2,e2," +
+            "f2,e4,s2,e8," +
+            "j2,e2,f2,e2,j2,e2,f2,e2," +
+            "j2,e4,s2,e8," +
+            "f2,e2,j2,e2,f2,e6," +
+            "j2,e2,f2,e2,j2,e6," +
+            "f2,e2,j2,e2,f2,e2,j2,e2," +
+            "e4,f2,e2,j2,e2,f2,e2," +
+
+            "e2,f2,j2,f2,e2,s2,e4," +
+
+            "j2,e2,f2,e2,j2,e2,f2,e2," +
+            "j2,e2,f2,e2,j2,e2,s2,e2," +
+            "f2,e2,j2,e2,f2,e2,j2,e2," +
+            "f2,j2,f2,j2,e4,s2,e2," +
+
+            "f2,e2,j2,e2,f2,e2,j2,e2," +
+            "f2,e2,j2,e2,f2,e2,s2,e2," +
+            "j2,e2,f2,e2,j2,e2,f2,e2," +
+            "j2,f2,j2,f2,e4,s2,e2," +
+
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "e2,f2,e2,j2,e2,f2,e2,j2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "f2,e2,j2,e4,f2,j2,e2," +
+            "e2,f2,j2,f2,e8," +
+            "e2,j2,f2,j2,e8,";
+
+        levelData[2] = "e8,e8," +
+
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,f2,e2,e4,j2,f2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,f2,e2,e4,j2,f2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,f2,e2,e4,j2,f2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "f1,j1,f1,e1,j1,f1,j1,e1,e1,f2,j2,f1,j2," +
+
+        "s2,e2,f2,e2,e4,j2,f2," +
+        "e2,e2,j2,e2,e4,f2,j2," +
+        "s2,e2,f2,e2,e4,j2,f2," +
+        "e2,e2,j2,e2,e4,f2,j2," +
+        "s2,e2,f2,e2,e4,j2,f2," +
+        "e2,e2,j2,e2,e4,f2,j2," +
+        "s2,e2,f2,e2,e4,j2,f2," +
+        "e2,e2,j2,e2,e4,f2,j2," +
+
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+        "f2,e1,j2,e3,f2,e1,j2,e3," +
+
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,j2,e2,e4,f2,j2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,j2,e2,e4,f2,j2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,j2,e2,e4,f2,j2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,j2,e2,e4,f2,j2," +
+
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+
+        "s2,e2,e4,e8," +
+
+        "s2,e6,s2,e6," +
+        "s2,e6,s2,e2,f2,j2," +
+        "s2,e6,s2,e6," +
+        "s2,e6,s2,e2,f2,j2," +
+        "s2,e6,s2,e6," +
+        "s2,e6,s2,e2,f2,j2," +
+        "s2,e6,s2,e6," +
+        "s2,e6,s2,e2,f2,j2,";
+
+        currLevelInputs = levelData[levelNum];
         playerAnimationHandler.startAnim();
     }
 
