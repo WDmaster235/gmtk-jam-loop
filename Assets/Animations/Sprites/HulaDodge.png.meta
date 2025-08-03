@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 3cdb6c94afba53749a965437905cce70
+guid: ea117fe3b96766d40b65229ac6990d38
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2630613391444065544
-    second: Boss_2_arena_sprite_0
-  - first:
-      213: -936934717153868927
-    second: Boss_2_arena_sprite_1
-  - first:
-      213: 4660734968872087921
-    second: Boss_2_arena_sprite_2
+      213: 3299691525311814461
+    second: HulaDodge_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -93,7 +87,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 12
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,67 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_2_arena_sprite_0
+      name: HulaDodge_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 71
-        width: 219
-        height: 112
+        x: 0
+        y: 0
+        width: 25
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80db86221f0d18420800000000000000
-      internalID: 2630613391444065544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boss_2_arena_sprite_1
-      rect:
-        serializedVersion: 2
-        x: 274
-        y: 71
-        width: 219
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 183005eb6d65ff2f0800000000000000
-      internalID: -936934717153868927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Boss_2_arena_sprite_2
-      rect:
-        serializedVersion: 2
-        x: 530
-        y: 71
-        width: 219
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 171bcd3b2c14ea040800000000000000
-      internalID: 4660734968872087921
+      spriteID: d3bd392b5fbdacd20800000000000000
+      internalID: 3299691525311814461
       vertices: []
       indices: 
       edges: []
@@ -175,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Boss_2_arena_sprite_0: 2630613391444065544
-      Boss_2_arena_sprite_1: -936934717153868927
-      Boss_2_arena_sprite_2: 4660734968872087921
+      HulaDodge_0: 3299691525311814461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
