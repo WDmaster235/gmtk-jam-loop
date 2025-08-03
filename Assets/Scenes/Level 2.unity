@@ -373,9 +373,13 @@ MonoBehaviour:
   HealingAmount: 1
   DamageAmount: 1
   Health: 30
+  hulaGirlSpriteRenderer: {fileID: 1185962811}
   playerAnimator: {fileID: 1185962810}
   playerAnimationHandler: {fileID: 1185962808}
   hulaHoopAnimator: {fileID: 1118058510}
+  hulaBorderRenderer: {fileID: 0}
+  spriteBorder1: {fileID: 0}
+  spriteBorder2: {fileID: 0}
   beatManager: {fileID: 1638108691}
   levelNum: 1
 --- !u!4 &683550520
@@ -789,6 +793,11 @@ MonoBehaviour:
 --- !u!95 &1185962810 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1893621253355131895, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
+  m_PrefabInstance: {fileID: 431096383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &1185962811 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 385440869101010132, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
   m_PrefabInstance: {fileID: 431096383}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1213506818 stripped

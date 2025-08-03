@@ -1,31 +1,34 @@
 fileFormatVersion: 2
-guid: c6b24973a1832384f9ee33c4a7c916a0
+guid: 8656a03b373d09b4a9a5a03a2862c672
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1620772684356320316
-    second: Boss_three_ripp_0
+      213: -1887866430248248489
+    second: SuccessAnimationBorder_0
   - first:
-      213: 4265126392549982134
-    second: Boss_three_ripp_1
+      213: -4727540467198449220
+    second: SuccessAnimationBorder_1
   - first:
-      213: 5545450275936797173
-    second: Boss_three_ripp_2
+      213: 5237659106925774399
+    second: SuccessAnimationBorder_2
   - first:
-      213: -320069903869051061
-    second: Boss_three_ripp_3
+      213: 7681955151352835561
+    second: SuccessAnimationBorder_3
   - first:
-      213: -7094827665290255832
-    second: Boss_three_ripp_4
+      213: -5116541513166718511
+    second: SuccessAnimationBorder_4
   - first:
-      213: 2586157574638995377
-    second: Boss_three_ripp_5
+      213: -2364432028889478788
+    second: SuccessAnimationBorder_5
   - first:
-      213: 5483294430993411714
-    second: Boss_three_ripp_6
+      213: 1529536168179642832
+    second: SuccessAnimationBorder_6
   - first:
-      213: -8621496063582295032
-    second: Boss_three_ripp_7
+      213: -3414442530960765820
+    second: SuccessAnimationBorder_7
+  - first:
+      213: 5729748124740220516
+    second: SuccessAnimationBorder_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_three_ripp_0
+      name: SuccessAnimationBorder_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 0
-        width: 39
-        height: 52
+        x: 4
+        y: 44
+        width: 19
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c3094fa4dbd189e0800000000000000
-      internalID: -1620772684356320316
+      spriteID: 75b1ba9eb73fcc5e0800000000000000
+      internalID: -1887866430248248489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_1
+      name: SuccessAnimationBorder_1
       rect:
         serializedVersion: 2
-        x: 72
-        y: 0
-        width: 39
-        height: 52
+        x: 35
+        y: 56
+        width: 6
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bfb51e3bd5c03b30800000000000000
-      internalID: 4265126392549982134
+      spriteID: cb92a5f1ef6646eb0800000000000000
+      internalID: -4727540467198449220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_2
+      name: SuccessAnimationBorder_2
       rect:
         serializedVersion: 2
-        x: 136
-        y: 0
-        width: 39
-        height: 52
+        x: 47
+        y: 36
+        width: 12
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f10ec815a565fc40800000000000000
-      internalID: 5545450275936797173
+      spriteID: f3686ea1537efa840800000000000000
+      internalID: 5237659106925774399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_3
+      name: SuccessAnimationBorder_3
       rect:
         serializedVersion: 2
-        x: 200
-        y: 0
-        width: 41
-        height: 52
+        x: 0
+        y: 28
+        width: 8
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4f77944e12ee8bf0800000000000000
-      internalID: -320069903869051061
+      spriteID: 9ed2ed86289cb9a60800000000000000
+      internalID: 7681955151352835561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_4
+      name: SuccessAnimationBorder_4
       rect:
         serializedVersion: 2
-        x: 268
-        y: 0
-        width: 38
-        height: 52
+        x: 10
+        y: 11
+        width: 37
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 822a2c314db1a8d90800000000000000
-      internalID: -7094827665290255832
+      spriteID: 1d978253a946ef8b0800000000000000
+      internalID: -5116541513166718511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_5
+      name: SuccessAnimationBorder_5
       rect:
         serializedVersion: 2
-        x: 332
-        y: 0
-        width: 38
-        height: 52
+        x: 3
+        y: 5
+        width: 6
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b70b81bc90e3e320800000000000000
-      internalID: 2586157574638995377
+      spriteID: c798c76d899df2fd0800000000000000
+      internalID: -2364432028889478788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_6
+      name: SuccessAnimationBorder_6
       rect:
         serializedVersion: 2
-        x: 396
-        y: 0
-        width: 38
-        height: 52
+        x: 15
+        y: 4
+        width: 10
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28e6d36bb33981c40800000000000000
-      internalID: 5483294430993411714
+      spriteID: 0d1b5778a010a3510800000000000000
+      internalID: 1529536168179642832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss_three_ripp_7
+      name: SuccessAnimationBorder_7
       rect:
         serializedVersion: 2
-        x: 460
-        y: 0
-        width: 38
-        height: 52
+        x: 36
+        y: 4
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +306,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 80cafb1420b4a5880800000000000000
-      internalID: -8621496063582295032
+      spriteID: 48c091ccb967d90d0800000000000000
+      internalID: -3414442530960765820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SuccessAnimationBorder_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466f99bdf87248f40800000000000000
+      internalID: 5729748124740220516
       vertices: []
       indices: 
       edges: []
@@ -323,14 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Boss_three_ripp_0: -1620772684356320316
-      Boss_three_ripp_1: 4265126392549982134
-      Boss_three_ripp_2: 5545450275936797173
-      Boss_three_ripp_3: -320069903869051061
-      Boss_three_ripp_4: -7094827665290255832
-      Boss_three_ripp_5: 2586157574638995377
-      Boss_three_ripp_6: 5483294430993411714
-      Boss_three_ripp_7: -8621496063582295032
+      SuccessAnimationBorder_0: -1887866430248248489
+      SuccessAnimationBorder_1: -4727540467198449220
+      SuccessAnimationBorder_2: 5237659106925774399
+      SuccessAnimationBorder_3: 7681955151352835561
+      SuccessAnimationBorder_4: -5116541513166718511
+      SuccessAnimationBorder_5: -2364432028889478788
+      SuccessAnimationBorder_6: 1529536168179642832
+      SuccessAnimationBorder_7: -3414442530960765820
+      SuccessAnimationBorder_8: 5729748124740220516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
