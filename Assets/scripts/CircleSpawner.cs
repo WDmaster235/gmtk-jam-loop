@@ -11,7 +11,7 @@ public class CircleSpawner : MonoBehaviour
     [SerializeField] public GameObject hulaIndicatorDodge;
     string[] levelData;
     [SerializeField] int levelNum;
-
+    
     void Start()
     {
         levelData = new string[3];

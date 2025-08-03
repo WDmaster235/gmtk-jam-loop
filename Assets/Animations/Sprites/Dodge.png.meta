@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 6495ab24eb76d5448b3e1b8587067367
+guid: ca3a919829627364196934beaf4fe395
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 187799152620318863
-    second: Boss_1_arena_sprite_0
+      213: -4693932192084691647
+    second: Dodge_0
+  - first:
+      213: 580201186502188825
+    second: Dodge_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Boss_1_arena_sprite_0
+      name: Dodge_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 220
-        height: 115
+        x: 20
+        y: 7
+        width: 23
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +131,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f80bd0595523b9200800000000000000
-      internalID: 187799152620318863
+      spriteID: 14575037a8dcbdeb0800000000000000
+      internalID: -4693932192084691647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 7
+        width: 23
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f19b3b7e94d0800800000000000000
+      internalID: 580201186502188825
       vertices: []
       indices: 
       edges: []
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Boss_1_arena_sprite_0: 187799152620318863
+      Dodge_0: -4693932192084691647
+      Dodge_1: 580201186502188825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,8 +7,8 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StartGothMommy 0
-  m_Speed: 1
+  m_Name: Start
+  m_Speed: 0.1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2118799417334236359}
@@ -21,7 +21,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 128dfc1d3ee13b442930dbea0b2f049e, type: 2}
+  m_Motion: {fileID: 7400000, guid: b440420e0d9b5d94f8674b10945a8532, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -41,7 +41,7 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3927529416238811318}
-    m_Position: {x: 290, y: 250, z: 0}
+    m_Position: {x: 280, y: 250, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3357834968017888536}
     m_Position: {x: 560, y: 250, z: 0}
@@ -65,7 +65,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GothMommyBattle
+  m_Name: BrownShitBattle
   m_Speed: 0.8
   m_CycleOffset: 1
   m_Transitions:
@@ -79,7 +79,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 6e5e407a64ddc254299869d14d6ff5be, type: 2}
+  m_Motion: {fileID: 7400000, guid: 03e256c94122ecf47a3d161877511c82, type: 2}
   m_Tag: 
   m_SpeedParameter: Start
   m_MirrorParameter: 
@@ -92,8 +92,8 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GothMommyBattleSweat
-  m_Speed: 0.8
+  m_Name: BrownShitBattleSweat
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 2706133281358734759}
@@ -106,7 +106,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: dd83a0c269999b547aa6972bd1c7d48b, type: 2}
+  m_Motion: {fileID: 7400000, guid: b1657343c8c4cab4e9b9af3cfb4a4313, type: 2}
   m_Tag: 
   m_SpeedParameter: Mid
   m_MirrorParameter: 
@@ -169,12 +169,12 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.2499981
+  m_TransitionDuration: 0.24999994
   m_TransitionOffset: 0
   m_ExitTime: 0
   m_HasExitTime: 1
   m_HasFixedDuration: 1
-  m_InterruptionSource: 2
+  m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1101 &2118799417334236359
@@ -194,9 +194,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25000006
+  m_TransitionDuration: 0.10763884
   m_TransitionOffset: 0
-  m_ExitTime: 0.73129356
+  m_ExitTime: 0
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -219,12 +219,12 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.4977455
+  m_TransitionDuration: 0.25000003
   m_TransitionOffset: 0
-  m_ExitTime: 0
+  m_ExitTime: 0.02700661
   m_HasExitTime: 1
   m_HasFixedDuration: 1
-  m_InterruptionSource: 2
+  m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &8379921982278374768
@@ -234,7 +234,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: GothMommyBattleSweatExtreme
+  m_Name: BrownShitBattleSweatExtreme
   m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions: []
@@ -247,7 +247,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3f0a4f436c2c62f41bd72df2fc942452, type: 2}
+  m_Motion: {fileID: 7400000, guid: 97652b35d770fc147827e2af5cef9d96, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
