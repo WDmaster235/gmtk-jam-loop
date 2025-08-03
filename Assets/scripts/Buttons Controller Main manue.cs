@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 public class ButtonsControllerMainmanue : MonoBehaviour
 {
-    GameObject rules;
+    public GameObject rules;
+    
 
 
     private void Awake()
@@ -16,18 +18,22 @@ public class ButtonsControllerMainmanue : MonoBehaviour
  
     void Start()
     {
-        rules.SetActive(false);
+      
+       
     }
 
 
     void Update()
     {
-
+        
     }
+
+   
+
 
     public void StartButton()
     {
-        SceneManager.LoadScene("Level Select", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
     }
 
     public void RulesButton()
