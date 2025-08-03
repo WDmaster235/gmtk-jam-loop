@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
@@ -31,7 +32,12 @@ public class LevelManager : MonoBehaviour
     private int currTupBeatLength;
     private bool hasCurrKeyBeenPressed;
     [SerializeField] int levelNum;
+<<<<<<< HEAD
     string[] levelData;
+=======
+    string[] nextLevel = {"Level 2", "Main Menu"};
+    string[] currentLevel = { "Level 1", "Level 2" };
+>>>>>>> d408baf78b8b8061a64844e74e5ea1fe5770d375
     string currLevelInputs; //string format: "wantedInput""length", ... exmpale: a2,d3,e4,s1
 
     void Start()
@@ -158,6 +164,11 @@ public class LevelManager : MonoBehaviour
 
     void Update()
     {
+        if(Health <= 0) 
+        {
+            lose();
+        }
+
         if (ArrIndex < currLevelInputs.Length - 1)
         {
             PlayerInput = PlayerInputs();
@@ -245,7 +256,12 @@ public class LevelManager : MonoBehaviour
 
     private void Win()
     {
+        SceneManager.LoadScene(nextLevel[levelNum], LoadSceneMode.Single);
+    }
 
+    private void lose() 
+    {
+        SceneManager.LoadScene(currentLevel[levelNum], LoadSceneMode.Single);
     }
 
     private PosInputs PlayerInputs()
