@@ -32,12 +32,9 @@ public class LevelManager : MonoBehaviour
     private int currTupBeatLength;
     private bool hasCurrKeyBeenPressed;
     [SerializeField] int levelNum;
-<<<<<<< HEAD
     string[] levelData;
-=======
     string[] nextLevel = {"Level 2", "Main Menu"};
     string[] currentLevel = { "Level 1", "Level 2" };
->>>>>>> d408baf78b8b8061a64844e74e5ea1fe5770d375
     string currLevelInputs; //string format: "wantedInput""length", ... exmpale: a2,d3,e4,s1
 
     void Start()
