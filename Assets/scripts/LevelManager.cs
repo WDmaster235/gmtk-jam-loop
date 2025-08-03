@@ -31,11 +31,12 @@ public class LevelManager : MonoBehaviour
     private int currTupBeatLength;
     private bool hasCurrKeyBeenPressed;
     [SerializeField] int levelNum;
-    string[] levelData = new string[3];
+    string[] levelData;
     string currLevelInputs; //string format: "wantedInput""length", ... exmpale: a2,d3,e4,s1
 
     void Start()
     {
+        levelData = new string[3];
         hasCurrKeyBeenPressed = false;
         levelData[0] = "e8,e8," +
 
@@ -96,7 +97,7 @@ public class LevelManager : MonoBehaviour
             "e2,f2,j2,f2,e8," +
             "e2,j2,f2,j2,e8,";
 
-        levelData[2] = "e8,e8," +
+        levelData[1] = "e8,e8," +
 
         "e4,f2,e2,e4,j2,e2," +
         "e4,f2,e2,e4,j2,f2," +

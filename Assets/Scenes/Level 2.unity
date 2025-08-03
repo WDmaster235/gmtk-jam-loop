@@ -182,7 +182,7 @@ PrefabInstance:
     - target: {fileID: 4611365584683567606, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: f7663195bb590f4439c0042305cde625, type: 3}
+      objectReference: {fileID: 8300000, guid: 2c7736d0a10ef6a4a85cd3b354a69e16, type: 3}
     - target: {fileID: 6593976331742244169, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
       propertyPath: m_Name
       value: BeatManagerShort
@@ -357,6 +357,7 @@ MonoBehaviour:
   hulaIndicatorF: {fileID: 5571252293601291188, guid: 6ae6a47e6b0e9ee42a3a23eadf73ed10, type: 3}
   hulaIndicatorJ: {fileID: 6437393109204295622, guid: 70b2f2540c9b3ae4482edfff816cbc60, type: 3}
   hulaIndicatorDodge: {fileID: 5500620807560478800, guid: 7837bf8274fc3e2428a63aeadc41a150, type: 3}
+  levelNum: 1
 --- !u!114 &683550519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1117,7 +1118,7 @@ PrefabInstance:
     - target: {fileID: 4611365584683567606, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: f7663195bb590f4439c0042305cde625, type: 3}
+      objectReference: {fileID: 8300000, guid: 2c7736d0a10ef6a4a85cd3b354a69e16, type: 3}
     - target: {fileID: 6593976331742244169, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
       propertyPath: m_Name
       value: BeatManager
@@ -1138,75 +1139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b56baaf26fd29a4dbe3553e29991134, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1685593049
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.22907
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.29331
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 248907382103402937, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3740145472060532589, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: bpm
-      value: 560
-      objectReference: {fileID: 0}
-    - target: {fileID: 3740145472060532589, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: levelManager
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4611365584683567606, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_Resource
-      value: 
-      objectReference: {fileID: 8300000, guid: 4a9c450d46d8a9944878e26018243c46, type: 3}
-    - target: {fileID: 6593976331742244169, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
-      propertyPath: m_Name
-      value: BeatManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c0addff025e78be44a0a93497ad6f086, type: 3}
 --- !u!1 &1796765389 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3200987125983852393, guid: 3e97fd4c1c8dc814ea15c3e8be4815e2, type: 3}
@@ -1389,7 +1321,6 @@ SceneRoots:
   - {fileID: 1042585576}
   - {fileID: 1567641945}
   - {fileID: 1118058509}
-  - {fileID: 1685593049}
   - {fileID: 431096383}
   - {fileID: 1066948077}
   - {fileID: 683550520}
