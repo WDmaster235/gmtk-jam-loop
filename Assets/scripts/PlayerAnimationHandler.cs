@@ -8,15 +8,14 @@ public class PlayerAnimationHandler : MonoBehaviour
 
     [Header("References")]
     public Animator playerAnimator;
+    [SerializeField] Animator HulaHoopFront;
+    [SerializeField] Animator HulaHoopBack;
 
     private bool introFinished = false;
 
-    private const string TRIGGER_HIP_LEFT = "HipLeft";
-    private const string TRIGGER_HIP_RIGHT = "HipRight";
 
-    void Start()
+    public void startAnim()
     {
-        // Play the intro animation
         playerAnimator.Play(startAnimation.name, 0, 0f);
         StartCoroutine(WaitForIntro());
     }
@@ -24,6 +23,8 @@ public class PlayerAnimationHandler : MonoBehaviour
     IEnumerator WaitForIntro()
     {
         yield return new WaitForSeconds(startAnimation.length);
+        HulaHoopBack.Play("HulaHoopBackAnim");
+        HulaHoopFront.Play("HulaHoopFrontAnim");
         introFinished = true;
     }
 
@@ -32,16 +33,7 @@ public class PlayerAnimationHandler : MonoBehaviour
         if (!introFinished) return;
 
         AnimatorStateInfo stateInfo = playerAnimator.GetCurrentAnimatorStateInfo(0);
-
-        if (Input.GetKeyDown(KeyCode.F) && !stateInfo.IsName("HipLeft"))
-        {
-            playerAnimator.ResetTrigger(TRIGGER_HIP_RIGHT); // reset the other trigger
-            playerAnimator.SetTrigger(TRIGGER_HIP_LEFT);
-        }
-        else if (Input.GetKeyDown(KeyCode.J) && !stateInfo.IsName("HipRight"))
-        {
-            playerAnimator.ResetTrigger(TRIGGER_HIP_LEFT); // reset the other trigger
-            playerAnimator.SetTrigger(TRIGGER_HIP_RIGHT);
-        }
     }
+
+    public bool GetIntroState() { return introFinished;  }
 }

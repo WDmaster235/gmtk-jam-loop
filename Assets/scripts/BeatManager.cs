@@ -22,9 +22,8 @@ public class BeatManager : MonoBehaviour
     {
         sampledTime = (audioSource.timeSamples / (audioSource.clip.frequency * IntervalLength));
         CheckForNewInterval(sampledTime);
-
         if (Input.GetKeyDown("h"))
-            audioSource.Play();
+            PlayLevel();
     }
 
     void CheckForNewInterval(float interval)
@@ -34,5 +33,10 @@ public class BeatManager : MonoBehaviour
             LastInterval = Mathf.FloorToInt(interval);
             levelManager.BeatLength++;
         }
+    }
+
+    public void PlayLevel()
+    {
+        audioSource.Play(); 
     }
 }
