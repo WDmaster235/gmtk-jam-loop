@@ -119,7 +119,7 @@ public class LevelData
         "s2,e6,s2,e2,f2,j2,";
 
     private static string level3Data =
-        ""
+        "";
 
     public static string GetLevel1Data() { return level1Data; }
 }
