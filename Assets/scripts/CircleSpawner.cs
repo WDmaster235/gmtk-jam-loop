@@ -130,6 +130,68 @@ public class CircleSpawner : MonoBehaviour
         "s2,e6,s2,e6," +
         "s2,e6,s2,e2,f2,j2,";
 
+        levelData[2] = "e8,e8," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+
+        "f2,j2,f2,e2,j2,e2,f2,e2," +
+        "f2,j2,f2,e2,j2,e2,f2,e2," +
+        "j2,e2,e4,e8," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+
+        "f2,e4,j2,e8," +
+        "f2,e4,j2,e4,s2,e2," +
+        "f2,e4,j2,e8," +
+        "f2,e4,j2,e4,s2,e2," +
+        "f2,e4,j2,e8," +
+        "f2,e4,j2,e4,s2,e2," +
+        "f2,e4,j2,e8," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+
+        "f2,e2,e4,j2,e2,e4," +
+        "f2,j2,f2,e2,e8," +
+        "f2,j2,f2,e2,e8," +
+        "f2,j2,f2,e2,e8," +
+
+        "j2,e2,f2,e2,e4,j2,e2" +
+        "f2,j2,f2,e2,e4,j2,e2" +
+        "f2,j2,f2,e2,e4,j2,e2" +
+        "f2,j2,f2,e2,j2,e2,f2,e2" +
+
+        "j2,e2,f2,e2,j2,e2,f2,e2," +
+        "j2,e2,f2,e2,j2,e2,f2,e2," +
+        "j2,e2,f2,e2,j2,e2,f2,e2," +
+        "j2,e2,f2,e2,j2,e2,s2,e2," +
+
+        "f2,e2,e4,j2,e2,e4," +
+        "f2,e2,j2,e2,f2,e2,j2,e2" +
+        "f2,j2,f2,j2,f2,e2,j2,e2" +
+        "f2,j2,f2,j2,f2,e2,j2,e2" +
+
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,j2,f2,j2," +
+
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,j2,f2,j2," +
+
+        "f2,e2,e4,j2,e2,e4," +
+        "f2,e2,j2,e2,f2,e2,j2,e2" +
+        "f2,j2,f2,j2,f2,e2,j2,e2" +
+        "f2,j2,f2,j2,f2,e2,j2,e2" +
+
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+        "f2,e2,j2,e2,f2,e2,j2,e2," +
+
+        "f2";
+
         currLevelInputs = levelData[levelNum];
     }
 
