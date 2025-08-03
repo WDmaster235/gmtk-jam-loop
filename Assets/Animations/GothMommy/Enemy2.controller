@@ -21,7 +21,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: 128dfc1d3ee13b442930dbea0b2f049e, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: b440420e0d9b5d94f8674b10945a8532, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -41,7 +45,11 @@ AnimatorStateMachine:
     m_Position: {x: 280, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3927529416238811318}
+<<<<<<< Updated upstream
+    m_Position: {x: 290, y: 250, z: 0}
+=======
     m_Position: {x: 280, y: 250, z: 0}
+>>>>>>> Stashed changes
   - serializedVersion: 1
     m_State: {fileID: -3357834968017888536}
     m_Position: {x: 560, y: 250, z: 0}
@@ -79,7 +87,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: 6e5e407a64ddc254299869d14d6ff5be, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: 03e256c94122ecf47a3d161877511c82, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: Start
   m_MirrorParameter: 
@@ -106,7 +118,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: dd83a0c269999b547aa6972bd1c7d48b, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: b1657343c8c4cab4e9b9af3cfb4a4313, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: Mid
   m_MirrorParameter: 
@@ -247,7 +263,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: 3f0a4f436c2c62f41bd72df2fc942452, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: 97652b35d770fc147827e2af5cef9d96, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

@@ -21,7 +21,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: db6990f684df066429a67442b4e44f97, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: a0ba64a72d715d7499364760044e99fc, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -79,7 +83,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: c26f2e49a06daad45a00d75c0e2bc77f, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: f460e44395b1f7e46aed2938a5f1d2f6, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: Start
   m_MirrorParameter: 
@@ -106,7 +114,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: ecbf4ee2d3328134a9c792339beae885, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: f31a268f514ee644a9ca797a0a075961, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: Mid
   m_MirrorParameter: 
@@ -125,19 +137,31 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
+<<<<<<< Updated upstream
+    m_DefaultBool: 0
+=======
     m_DefaultBool: 1
+>>>>>>> Stashed changes
     m_Controller: {fileID: 9100000}
   - m_Name: ToSweat
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
+<<<<<<< Updated upstream
+    m_DefaultBool: 0
+=======
     m_DefaultBool: 1
+>>>>>>> Stashed changes
     m_Controller: {fileID: 9100000}
   - m_Name: ToRipp
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
+<<<<<<< Updated upstream
+    m_DefaultBool: 0
+=======
     m_DefaultBool: 1
+>>>>>>> Stashed changes
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
@@ -247,7 +271,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< Updated upstream
+  m_Motion: {fileID: 7400000, guid: d7759ff9336f10043bd023c011315688, type: 2}
+=======
   m_Motion: {fileID: 7400000, guid: 7ebfc3ce76a996d4896d57fc5f9ee1e3, type: 2}
+>>>>>>> Stashed changes
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
