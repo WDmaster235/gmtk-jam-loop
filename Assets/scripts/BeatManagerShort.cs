@@ -2,13 +2,13 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class BeatManager : MonoBehaviour
+public class BeatManagerShort : MonoBehaviour
 {
     [SerializeField] private float bpm;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private float steps;
 
-    public LevelManager levelManager;
+    public CircleSpawner circleSpawner;
     public float IntervalLength;
     private int LastInterval;
     private float sampledTime;
@@ -31,12 +31,12 @@ public class BeatManager : MonoBehaviour
         if (Mathf.FloorToInt(interval) != LastInterval)
         {
             LastInterval = Mathf.FloorToInt(interval);
-            levelManager.BeatLength++;
+            circleSpawner.BeatLength++;
         }
     }
 
     public void PlayLevel()
     {
-        audioSource.PlayDelayed(0.9f); 
+        audioSource.Play();
     }
 }

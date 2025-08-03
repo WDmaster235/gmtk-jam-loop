@@ -33,7 +33,7 @@ public class ButtonsControllerMainmanue : MonoBehaviour
 
     public void StartButton()
     {
-        SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
+        SceneManager.LoadScene("Level Select", LoadSceneMode.Single);
     }
 
     public void RulesButton()

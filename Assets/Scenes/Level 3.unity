@@ -177,6 +177,9 @@ MonoBehaviour:
   HealingAmount: 1
   DamageAmount: 1
   Health: 30
+  hulaIndicatorF: {fileID: 0}
+  hulaIndicatorJ: {fileID: 0}
+  hulaIndicatorDodge: {fileID: 0}
   playerAnimator: {fileID: 87315805}
   playerAnimationHandler: {fileID: 87315803}
   hulaHoopAnimator: {fileID: 1190610967}
@@ -822,7 +825,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 308647006702526423, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.76
+      value: -4.6
       objectReference: {fileID: 0}
     - target: {fileID: 308647006702526423, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
       propertyPath: m_LocalPosition.y

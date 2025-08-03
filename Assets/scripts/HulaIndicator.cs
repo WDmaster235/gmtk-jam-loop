@@ -7,6 +7,4 @@ public class HulaIndicator : MonoBehaviour
     {
         Destroy(gameObject, 1f);
     }
-
-    
 }
