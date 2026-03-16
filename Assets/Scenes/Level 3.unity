@@ -145,6 +145,7 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1893621253355131895, guid: 7c1c4270c828a22418f616fb5d42e046, type: 3}
   m_PrefabInstance: {fileID: 1709531061}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1001 &286182087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -233,11 +234,32 @@ AudioSource:
   m_PrefabInstance: {fileID: 286182087}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &286182090
+=======
+--- !u!1 &192341778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 192341780}
+  - component: {fileID: 192341779}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &192341779
+>>>>>>> parent of 9b06d6b (sss)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 286182088}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -249,6 +271,39 @@ MonoBehaviour:
   steps: 1
   circleSpawner: {fileID: 1925814712}
   IntervalLength: 0
+=======
+  m_GameObject: {fileID: 192341778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8cb52be4e4af064aa5f9bb358918ebb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealingAmount: 1
+  DamageAmount: 1
+  Health: 30
+  hulaIndicatorF: {fileID: 0}
+  hulaIndicatorJ: {fileID: 0}
+  hulaIndicatorDodge: {fileID: 0}
+  playerAnimator: {fileID: 87315805}
+  playerAnimationHandler: {fileID: 87315803}
+  hulaHoopAnimator: {fileID: 1190610967}
+  beatManager: {fileID: 917486555}
+--- !u!4 &192341780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 192341778}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of 9b06d6b (sss)
 --- !u!1 &286697171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5485155992605215004, guid: e140329835219184f9a3862fb33dab9f, type: 3}
@@ -630,6 +685,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 286697172}
   m_SourcePrefab: {fileID: 100100000, guid: e140329835219184f9a3862fb33dab9f, type: 3}
+<<<<<<< HEAD
 --- !u!1 &1402869572
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +773,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 9b06d6b (sss)
 --- !u!1001 &1503591261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1322,8 +1380,13 @@ SceneRoots:
   - {fileID: 1690890805}
   - {fileID: 1190610966}
   - {fileID: 1316766480}
+<<<<<<< HEAD
   - {fileID: 1709531061}
   - {fileID: 1402869574}
   - {fileID: 1925814714}
   - {fileID: 1947895566}
   - {fileID: 286182087}
+=======
+  - {fileID: 1612056668}
+  - {fileID: 1709531061}
+>>>>>>> parent of 9b06d6b (sss)

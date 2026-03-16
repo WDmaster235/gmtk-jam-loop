@@ -120,7 +120,23 @@ AnimatorController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Enemy
   serializedVersion: 5
+<<<<<<< HEAD
   m_AnimatorParameters: []
+=======
+  m_AnimatorParameters:
+  - m_Name: Start
+    m_Type: 1
+    m_DefaultFloat: 4
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: Mid
+    m_Type: 1
+    m_DefaultFloat: 4
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+>>>>>>> parent of 9b06d6b (sss)
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer

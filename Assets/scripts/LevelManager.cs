@@ -104,12 +104,12 @@ public class LevelManager : MonoBehaviour
 
         "e4,f2,e2,e4,j2,e2," +
         "e4,f2,e2,e4,j2,f2," +
-        "e4,j2,e2,e4,f2,e2," +
-        "e4,j2,e2,e4,f2,j2," +
         "e4,f2,e2,e4,j2,e2," +
         "e4,f2,e2,e4,j2,f2," +
-        "e4,j2,e2,e4,f2,e2," +
-        "j1,f1,j1,e1,f1,j1,f1,e1,e1,j2,f2,j1,f2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "e4,f2,e2,e4,j2,f2," +
+        "e4,f2,e2,e4,j2,e2," +
+        "f1,j1,f1,e1,j1,f1,j1,e1,e1,f2,j2,f1,j2," +
 
         "s2,e2,f2,e2,e4,j2,f2," +
         "e2,e2,j2,e2,e4,f2,j2," +
@@ -154,68 +154,6 @@ public class LevelManager : MonoBehaviour
         "s2,e6,s2,e2,f2,j2," +
         "s2,e6,s2,e6," +
         "s2,e6,s2,e2,f2,j2,";
-
-        levelData[2] = "e8,e8" +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-
-        "f2,j2,f2,e2,j2,e2,f2,e2," +
-        "f2,j2,f2,e2,j2,e2,f2,e2," +
-        "j2,e2,e4,e8," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-
-        "f2,e4,j2,e8," +
-        "f2,e4,j2,e4,s2,e2," +
-        "f2,e4,j2,e8," +
-        "f2,e4,j2,e4,s2,e2," +
-        "f2,e4,j2,e8," +
-        "f2,e4,j2,e4,s2,e2," +
-        "f2,e4,j2,e8," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-
-        "f2,e2,e4,j2,e2,e4," +
-        "f2,j2,f2,e2,e8," +
-        "f2,j2,f2,e2,e8," +
-        "f2,j2,f2,e2,e8," +
-
-        "j2,e2,f2,e2,e4,j2,e2" +
-        "f2,j2,f2,e2,e4,j2,e2" +
-        "f2,j2,f2,e2,e4,j2,e2" +
-        "f2,j2,f2,e2,j2,e2,f2,e2" +
-
-        "j2,e2,f2,e2,j2,e2,f2,e2," +
-        "j2,e2,f2,e2,j2,e2,f2,e2," +
-        "j2,e2,f2,e2,j2,e2,f2,e2," +
-        "j2,e2,f2,e2,j2,e2,s2,e2," +
-
-        "f2,e2,e4,j2,e2,e4," +
-        "f2,e2,j2,e2,f2,e2,j2,e2" +
-        "f2,j2,f2,j2,f2,e2,j2,e2" +
-        "f2,j2,f2,j2,f2,e2,j2,e2" +
-
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,j2,f2,j2," +
-
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,j2,f2,j2," +
-
-        "f2,e2,e4,j2,e2,e4," +
-        "f2,e2,j2,e2,f2,e2,j2,e2" +
-        "f2,j2,f2,j2,f2,e2,j2,e2" +
-        "f2,j2,f2,j2,f2,e2,j2,e2" +
-
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-        "f2,e2,j2,e2,f2,e2,j2,e2," +
-
-        "f2";
 
         currLevelInputs = levelData[levelNum];
         playerAnimationHandler.startAnim();
