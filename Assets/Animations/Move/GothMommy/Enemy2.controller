@@ -167,7 +167,11 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TransitionDuration: 0.2499981
+=======
+  m_TransitionDuration: 0.25
+>>>>>>> parent of 9b06d6b (sss)
 =======
   m_TransitionDuration: 0.25
 >>>>>>> parent of 9b06d6b (sss)
@@ -215,9 +219,15 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TransitionDuration: 0.4977455
   m_TransitionOffset: 0
   m_ExitTime: 0
+=======
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 1
+>>>>>>> parent of 9b06d6b (sss)
 =======
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0

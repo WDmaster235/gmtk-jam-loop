@@ -798,7 +798,10 @@ Animator:
   m_PrefabInstance: {fileID: 431096383}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 9b06d6b (sss)
 --- !u!1 &1213506818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5485155992605215004, guid: e140329835219184f9a3862fb33dab9f, type: 3}

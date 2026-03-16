@@ -146,6 +146,7 @@ Animator:
   m_PrefabInstance: {fileID: 1709531061}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &286182087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,6 +236,8 @@ AudioSource:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &286182090
 =======
+=======
+>>>>>>> parent of 9b06d6b (sss)
 --- !u!1 &192341778
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +306,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+>>>>>>> parent of 9b06d6b (sss)
+=======
 >>>>>>> parent of 9b06d6b (sss)
 --- !u!1 &286697171 stripped
 GameObject:
@@ -686,6 +692,7 @@ PrefabInstance:
       addedObject: {fileID: 286697172}
   m_SourcePrefab: {fileID: 100100000, guid: e140329835219184f9a3862fb33dab9f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1402869572
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,6 +780,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 9b06d6b (sss)
 =======
 >>>>>>> parent of 9b06d6b (sss)
 --- !u!1001 &1503591261
@@ -1381,11 +1390,16 @@ SceneRoots:
   - {fileID: 1190610966}
   - {fileID: 1316766480}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1709531061}
   - {fileID: 1402869574}
   - {fileID: 1925814714}
   - {fileID: 1947895566}
   - {fileID: 286182087}
+=======
+  - {fileID: 1612056668}
+  - {fileID: 1709531061}
+>>>>>>> parent of 9b06d6b (sss)
 =======
   - {fileID: 1612056668}
   - {fileID: 1709531061}
